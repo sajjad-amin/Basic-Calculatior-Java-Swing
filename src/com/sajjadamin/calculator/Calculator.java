@@ -24,7 +24,6 @@ public class Calculator {
                 digit.append(c);
             }
         }
-        System.out.println(digit);
         operand.add(new BigDecimal(digit.toString().equals("") ? "0" : digit.toString()));
         for(int i = 0; i < operator.size(); i++){
             if(i == 0){
